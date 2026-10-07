@@ -1,0 +1,32 @@
+# Local build products and generated test/demo output
+/build/
+/artifacts/
+/samples/
+/local-assets/
+/sessions/
+viewer-session.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+
+# Original assets, executable files, dumps and archives are never repository inputs
+*.NPK
+*.npk
+*.IMG
+*.img
+*.pvf
+*.exe
+*.dll
+*.dylib
+*.so
+*.dmp
+*.zip
+*.7z
+*.ogg
+*.wav
+*.mp4
+.env
+.env.*
